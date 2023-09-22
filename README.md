@@ -1,0 +1,82 @@
+# flet
+
+## About flet
+
+Deploy a flet static website to a free hosting such as GitHub Pages, Cloudflare Pages or Vercel!
+
+## Built With
+
++ python3
++ flet
+
+## Getting Started
+
+To get a local copy up and running follow these steps.
+
+### Prerequisites
+
++ python3
++ pip3
+
+### Installation
+
+This template doesn't rely on any external dependencies or services.
+1. clone the repo
+```shell
+https://github.com/kidistbedilu/flet.git && cd flet
+```
+2. create and activate virtual environment
+```shell
+virtualenv env && source env/bin/activate
+```
+3. install flet module
+```shell
+pip install -r requirements.txt 
+```
+
+### Usage
+
+1. run counter app
+```shell
+python counter.py
+```
+2. publish flet static website under `./dist` directory
+```shell
+flet publish counter.py
+```
+3. test the static website using Python's built-in [`http.server` module](https://docs.python.org/3/library/http.server.html)
+```shell
+python -m http.server --directory dist
+```
+
+counter-app screenshot.
+![counter-screenshot](https://github.com/kidistbedilu/flet/assets/145445250/ecf1cc1b-4fe4-468b-ad6f-eb6ef0335ae6)
+
+[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="data:image/png;base64,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" width="25" height="25"> 
+
+## Roadmap
+
+- [x] counter app
+- [x] host to Cloudflare Pages
+- [ ] host to Vercel
+- [ ] host to Netlify
+
+> See the [open issues](https://github.com/kidistbedilu/flet/issues) for a full list of proposed features and known issues.
+
+## Contributing
+
+Any contributions you make are greatly appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!!!
+
+1. fork the project
+2. create your feature branch `git checkout -b feature/amazing-feature`
+3. commit your changes `git commit -m 'feat: add amazing feature'` use the [conventional-commit](https://www.conventionalcommits.org/en/v1.0.0/) specification
+4. push to the branch `git push origin feature/amazing-feature`
+5. open a pull request
+
+## Contact
+
+Kidist Bedilu | [kidistbedilu.com](kidistbedilu.com) | [me@kidistbedilu.com](me@kidistbedilu.com) | [@kidistbedilu](@kidistbedilu)
+
+## License
+
+Distributed under the [MIT License](https://opensource.org/license/mit/).
