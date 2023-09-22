@@ -52,7 +52,7 @@ python -m http.server --directory dist
 counter-app screenshot.
 ![counter-screenshot](assets/counter-app.png)
 
-[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="assets/cloudflare-pages.png" width="25" height="25"> 
+[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="assets/cloudflare-pages.png" width="100" height="100"> 
 
 ## Roadmap
 
