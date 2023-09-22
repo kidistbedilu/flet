@@ -52,14 +52,14 @@ python -m http.server --directory dist
 counter-app screenshot.
 ![counter-screenshot](assets/counter-app.png)
 
-[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="assets/cloudflare-pages.png" width="50" height="50"> 
+[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) ![Cloudflare Pages logo](assets/cloudflare-pages.png) 
 
 ## Roadmap
 
 - [x] counter app
-- [x] host to Cloudflare Pages
-- [ ] host to Vercel
-- [ ] host to Netlify
+- [x] deploy to Cloudflare Pages
+- [ ] deploy to Vercel
+- [ ] deploy to Netlify
 
 > See the [open issues](https://github.com/kidistbedilu/flet/issues) for a full list of proposed features and known issues.
 
