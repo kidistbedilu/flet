@@ -50,9 +50,9 @@ python -m http.server --directory dist
 ```
 
 counter-app screenshot.
-![counter-screenshot](https://github.com/kidistbedilu/flet/assets/145445250/ecf1cc1b-4fe4-468b-ad6f-eb6ef0335ae6)
+![counter-screenshot](assets/counter-app.png)
 
-[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="https://cdn.cookielaw.org/logos/6b10d640-dc80-4fbf-a462-ae81dbad56e4/8ced0e2a-8b62-435c-ab28-6b206e21b606/cf-logo-v-rgb.png" width="25" height="25"> 
+[demo counter-app](https://flet-e01.pages.dev/) powered by [Cloudflare Pages](https://pages.cloudflare.com/) <img src="assets/cloudflare-pages.png" width="25" height="25"> 
 
 ## Roadmap
 
